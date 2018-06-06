@@ -4,11 +4,11 @@ public class ZeroPlentiful {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//		System.out.println(isZeroPlentiful(new int[] {0, 0 , 0, 0, 0}));
-//		System.out.println(isZeroPlentiful(new int[] {0, 0 , 0, 0, 0, 0, 0, 0}));
-//		System.out.println(isZeroPlentiful(new int[] {1, 2, 0, 0 , 0, 0, 2, -18, 0, 0 , 0, 0 ,0,12}));
-//		System.out.println(isZeroPlentiful(new int[] {1,2,3,4}));
-//		System.out.println(isZeroPlentiful(new int[] {1,2,0,0,0,0}));
+		System.out.println(isZeroPlentiful(new int[] {0, 0 , 0, 0, 0}));
+		System.out.println(isZeroPlentiful(new int[] {0, 0 , 0, 0, 0, 0, 0, 0}));
+		System.out.println(isZeroPlentiful(new int[] {1, 2, 0, 0 , 0, 0, 2, -18, 0, 0 , 0, 0 ,0,12}));
+		System.out.println(isZeroPlentiful(new int[] {1,2,3,4}));
+		System.out.println(isZeroPlentiful(new int[] {1,2,0,0,0,0}));
 		System.out.println(isZeroPlentiful(new int[] {0,2,0,0,0,0}));
 
 		
@@ -38,7 +38,6 @@ public class ZeroPlentiful {
 			}
 			else i++;
 		}
-		return count;
-			
+		return count;	
 	}
 }
